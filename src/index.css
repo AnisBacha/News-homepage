@@ -80,6 +80,9 @@ body{
   padding: 1rem 1.5rem;
   margin-block-start: 2rem;
 }
+.main__article button:hover{
+  background-color: black;
+}
 
 .main__new{
   background-color: hsl(240, 100%, 5%);
@@ -104,6 +107,9 @@ body{
 .main__new h3{
   margin-block: 1rem;
 }
+.main__new h3:hover{
+  color: hsl(35, 77%, 62%);
+}
 .main__new p{
   color: hsl(236, 13%, 42%);
   line-height: 1.75;
@@ -125,6 +131,9 @@ body{
   display: flex;
   flex-flow: column;
   font-size: 1.25rem;
+}
+.main__other article h2:hover{
+  color: hsl(0, 77%, 62%);
 }
 .main__other span{
   font-size: 2rem;
