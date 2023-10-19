@@ -50,6 +50,10 @@ body{
 .header__list li {
   margin-block: .75rem;
 }
+.header__list li:hover{
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+}
 .header__menupopup img{
   position: relative;
   left: 195px;
@@ -133,7 +137,7 @@ body{
   font-size: 1.25rem;
 }
 .main__other article h2:hover{
-  color: hsl(0, 77%, 62%);
+  color: hsl(5, 85%, 63%);
 }
 .main__other span{
   font-size: 2rem;
