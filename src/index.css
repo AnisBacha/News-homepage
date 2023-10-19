@@ -196,8 +196,13 @@ body{
   .main__article button{
     font-size: .75rem;
   }
+  .main__article div{
+    margin-inline: 1rem;
+  }
   .main__new{
     margin: 0;
+    max-height: 525px;
+    padding: 1.5rem;
     grid-row: 2/4;
     grid-column: 2/3;
   }
@@ -205,6 +210,7 @@ body{
     font-size: 2.5rem;
     margin-block-start: .5rem;
   }
+  
   .main__other{
     display: flex;
     flex-flow: row;
